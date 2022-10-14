@@ -1,4 +1,4 @@
 module.exports = {
-    API_URL : "http://localhost:8000/api",
+    API_URL : "https://jcwdvl0201.purwadhikabootcamp.com/api",
     COOKIE_EXP : 1
  };
