@@ -9,7 +9,7 @@ const authRouter = require('./auth');
 const userRouter = require('./user');
 // APKG1-20
 const categoryRouter = require('./category');
-const rajaongkirRouter = require('./rajaOngkir');
+const rajaongkirRouter = require('./rajaongkir');
 // APKG1-32
 const transactionRouter = require('./transaction')
 
