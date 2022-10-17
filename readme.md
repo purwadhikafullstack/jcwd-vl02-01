@@ -2,7 +2,7 @@
 
 This is monorepo contain frontend project using ReactJS and backend project using ExpressJS.
 
-## Available Scripts
+## Available Script
 
 In the project directory, you can run:
 
