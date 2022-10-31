@@ -71,7 +71,7 @@ app.use((err, req, res, next) => {
 //#region CLIENT
 const clientPath = "../../client/build";
 app.use(express.static(join(__dirname, clientPath)));
-console.log("CEK Access FE", express.static(join(__dirname, clientPath)));
+console.log("CEK Access FE", join(__dirname, clientPath));
 // Serve the HTML page
 app.get("*", (req, res) => {
   res.sendFile(join(__dirname, clientPath, "index.html"));
